@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    background-color: black;
+}
+h1{
+    background-color: #6caa07;
+    padding: 5px 0px 5px 20px;
+}
+
+.conteudo{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #6caa07;
+    font-weight: bold;
+    margin: 5px 0px;
+    font-size: 17px;
+}
