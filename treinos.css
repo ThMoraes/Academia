@@ -8,7 +8,7 @@ body{
     background-color: black;
 }
 h1{
-    background-color: #6caa07;
+    background-color: #006400;
     padding: 5px 0px 5px 20px;
 }
 
@@ -21,7 +21,7 @@ h1{
 
 a{
     text-decoration: none;
-    color: #6caa07;
+    color: #006400;
     font-weight: bold;
     margin: 5px 0px;
     font-size: 17px;

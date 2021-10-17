@@ -11,7 +11,7 @@ body{
     background-color: black;
 }
 h1{
-    background-color: #78866b;
+    background-color: #006400;
     padding: 5px 0px 5px 20px;
 }
 
@@ -33,7 +33,7 @@ h2{
     margin: 5px 0px;
 }
 .repeticoes{
-    color: #9fdd3a;
+    color: #78866b;
     font-weight: bold;
     margin-bottom: 10px;
 }
