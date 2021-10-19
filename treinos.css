@@ -13,18 +13,20 @@ body{
 }
 
 .topo{
-    background-color: #006400;
+    background-color: #17673ec8;
     display: grid;
     grid-template-columns: 10% 90%;
     width: 100%;
     padding: 5px 0px 5px 20px;
+    border-bottom: #57a77eaa 1px solid;
+    margin-bottom: 150px;
 }
 
 
 .renovacao{
     text-align: right;
     margin: auto 5px;
-    color: #964b00;
+    color: #686868;
     font-weight: bolder;
 }
 
@@ -38,8 +40,14 @@ body{
 a{
     text-decoration: none;
     /* color: #006400; */
-    color: #964b00;
+    color: #000000;
+    background-color: #17673ee4;
+    border: #57a77eaa 1px solid;
+    border-radius: 25px;
     font-weight: bold;
-    margin: 5px 0px;
+    margin: 15px 0px;
     font-size: 21px;
+}
+.treino{
+    padding: 10px;
 }
