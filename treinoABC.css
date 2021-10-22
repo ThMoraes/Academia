@@ -22,10 +22,13 @@ body{
     display: inline-flex;
     width: 100%;
     border-bottom: #57a77eaa 1px solid;
+    position: fixed;
+    height: 45px;
 }
 .linkBotaoVoltar{
     color: #000000;
-    padding: auto 5px;
+    padding: 0px 5px;
+    margin: auto 0px;
 }
 #botaoVoltar{
     background-color: #4d4d4d;
@@ -43,21 +46,21 @@ h1{
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
-    margin: auto 0px;
-    height: 100%;
-    
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 0px;    
 }
-
 h2{
     /* color: #006400; */ 
     color: #17673e;
     font-weight: bold;
-    margin-top: 17px;
+    margin-top: 20px;
 }
 .exercicio{
     color: #57A77E;
     font-weight: bold;
-    margin: 6px 0px 3px 0px;
+    margin-top: 6px;
 }
 .repeticoes{    
     /* color: #78866b;

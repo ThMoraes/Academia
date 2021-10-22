@@ -12,29 +12,41 @@ body{
     background-position: center;
 }
 
+
+
 .topo{
     background-color: #17673ec8;
-    display: grid;
-    grid-template-columns: 10% 90%;
+    display: inline-flex;
     width: 100%;
-    padding: 5px 0px 5px 20px;
+    padding: 8px 0px;
     border-bottom: #57a77eaa 1px solid;
-    margin-bottom: 35px;
+    position: fixed;
+    height: 45px;
+}
+img{
+    margin: auto 10px;
+    width: 30px;
+}
+h1{
+    padding: 0px 5px;
+    margin: auto 0px auto 9px;
 }
 
 
-.renovacao{
-    text-align: right;
-    margin: auto 5px;
-    color: #686868;
-    font-weight: bolder;
-}
 
 .conteudo{
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
-    margin: 20px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 0px;    
+}
+.treino{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 15px auto;
 }
 
 a{
@@ -45,16 +57,20 @@ a{
     border: #57a77eaa 1px solid;
     border-radius: 25px;
     font-weight: bold;
-    margin: 15px 0px;
     font-size: 21px;
+    padding: 5px 30px;
 }
-.treino{
-    padding: 10px;
+#treinoAerobico{
+    margin: 50px auto;
 }
 
 
 
-
-#aerobico{
-    margin-top: 90px;
+.renovacao{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    color: #686868;
+    font-weight: bolder;
 }
